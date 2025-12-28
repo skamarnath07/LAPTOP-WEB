@@ -1,0 +1,71 @@
+body{
+    background-color:#dad5d5;
+    margin:0;
+}
+.custom-navbar {
+  background-color: #333;
+
+}
+.hero{
+    background-image: url("images/banner.jpg");
+    background-position: cover;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    margin-top: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+    @media (max-width: 768px) {
+ .hero {
+    background-image: url("images/banner.jpg");
+    height: 200px;
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;           
+}
+
+}
+.content{
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+}
+@media (max-width: 768px) {
+    .content{
+        flex-direction: column;
+    }
+    #cards{
+        width: 100%;
+    }
+}
+.btnn{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+    
+   
